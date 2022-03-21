@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <title>Count Word in javascript </title>
+  </head>
+  <body>
+
+    <div class="mb-3 py-3 bg-primary">
+        <h3 class="p-3 text-warning text-center "> Word Count Tool </h3>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <div class="row">
+                    
+                <div class="col-md-7 mx-auto col-sm-12 col-xs-12 py-3">
+                    <div class="mb-3 pt-5">
+                        <label for="exampleFormControlInput1" class="form-label">Enter String</label>
+                         <input type="text" id="data" class="form-control"  placeholder="Enter item">
+                         <span id="error" class="text-danger"></span>
+                    </div>
+                    <h3 class="text-center">To Number </h3>
+                    <div class="mb-2 bg-dark h-50 text-center pt-5 text-white " id="num">
+
+                    </div>
+    
+                    <div class="md-3 py-1   px-3">
+            <button type="button"  onclick="countString();" class="btn btn-secondary px-4" style="border-radius:0px;">click calculate word Length</button>
+                    </div>
+                 </div>
+                
+            </div>
+         </div>
+                
+        </div>
+    </div>
+
+    
+    </div>
+ <script src="script.js"></script>
+
+ <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+    
+  </body>
+</html>
