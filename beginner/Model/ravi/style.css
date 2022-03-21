@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #eeeeee;
+
+}
+.heading h2{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.more_button{
+width: 950px;
+display: flex;
+justify-content: space-between;
+
+}
+.more_button button{
+    margin-left: 180px;
+}
+ .all{
+     padding:10px;
+ }
+ .image_div{
+     width:1200px;
+     height: 450px;
+     padding-top:50px;
+     display: flex;
+     justify-content: space-between;
+    background-color: #bec2ca;
+    margin: 10px auto;
+ }
+ .fisrt_image{
+     margin-left:100px;
+ }
+ .fisrt_image p{
+     text-align: center;
+ }
+ .fisrt_image img{
+     width: 300px;
+     height: 350px;
+ }
+
+ .second_image{
+    margin-left:100px;
+}
+.second_image img{
+    width:300px;
+    height: 350px;
+}
+.second_image p{
+    text-align: center;
+}
+.third_image{
+    margin-left:100px;
+}
+.third_image img{
+    width: 300px;
+    height: 350px;
+}
+.third_image p{
+    text-align: center;
+}
+.cakes{
+    width:1200px;
+    height: 400px;
+    margin: 10px auto;
+    background-color: #bec2ca;
+    display: flex;
+
+}
+#cake{
+    display:none;
+}
+.cake_image{
+    padding-top: 20px;
+    margin-left: 80px;
+}
+.cake_image img{
+    width:300px;
+    height: 300px;
+}
+.cake1_image{
+    padding-top: 20px;
+    margin-left: 80px;
+}
+.cake1_image img{
+    width:300px;
+    height: 300px;
+}
+.cake2_image{
+    padding-top: 20px;
+    margin-left: 80px;
+}
+.cake2_image img{
+    width:300px;
+    height: 300px;
+}
+.doughnut{
+    width:1200px;
+    height: 400px;
+    margin: 10px auto;
+    background-color: #bec2ca;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#doughnut{
+    display:none;
+}
+.doughnut_image{
+    padding-top: 20px;
+}
+.doughnut_image img{
+    width:300px;
+    height: 300px;
+}
+.doughnut1_image{
+    padding-top: 20px;
+}
+.doughnut1_image img{
+    width:300px;
+    height: 300px;
+}
+.doughnut2_image{
+    padding-top: 20px;
+}
+.doughnut2_image img{
+    width:300px;
+    height: 300px;
+}
+
+
+.sweet{
+    width:1200px;
+    height: 400px;
+    margin: 10px auto;
+    background-color: #bec2ca;
+    display: flex;
+    justify-content: space-around;
+}
+.sweet_image{
+    padding-top: 20px;
+}
+.sweet_image img{
+    width:300px;
+    height: 300px;
+}
+.sweet1_image{
+    padding-top: 20px;
+}
+.sweet1_image img{
+    width:300px;
+    height: 300px;
+}
+.sweet2_image{
+    padding-top: 20px;
+}
+.sweet2_image img{
+    width:300px;
+    height: 300px;
+}
+#sweet{
+    display:none;
+}
