@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kaushan Script', cursive;
+  background-image: linear-gradient(365deg, black, transparent);
+}
+
+.main {
+  width: 90%;
+  margin: 0px auto;
+  background-image: linear-gradient(45deg, black, #00000040);
+}
+
+.main h1 span {
+  font-size: 65px;
+  color: #4a0000;
+}
+
+.main .filter_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.main .filter_button .filter_btn {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.main .search {
+  margin: 25px 0px;
+}
+
+.main .cakeItems {
+  margin: 50px 0px;
+}
+
+.main .cakeItems .show {
+  display: block !important;
+}
+
+.main .cakeItems .cards {
+  display: none;
+}
+
+.main .cakeItems .cards .card {
+  overflow: hidden;
+  margin: 25px 0px;
+}
+
+.main .cakeItems .cards .card:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.main .cakeItems .cards .card:hover .img img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.main .cakeItems .cards .card .img {
+  height: 90%;
+  overflow: hidden;
+}
+
+.main .cakeItems .cards .card .img img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-filter: grayscale(0.5);
+          filter: grayscale(0.5);
+}
+
+.main .cakeItems .cards .card .card-body {
+  height: 10%;
+}
+
+.main .cakeItems .cards .card .card-body h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  .main .filter_button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.model {
+  position: fixed;
+  top: 2.5%;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.model .model_box {
+  width: 100%;
+  height: 95vh;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 10px solid #4b4b4b;
+  background-color: #fff;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.model .model_box .navigation {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.model .model_box .navigation span {
+  background-color: #000;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 6px 18px;
+  position: absolute;
+  -webkit-transform: translateY(-50%) rotateY(180deg);
+          transform: translateY(-50%) rotateY(180deg);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.model .model_box .navigation span:nth-child(2) {
+  -webkit-transform: translateY(-50%) rotateY(0deg);
+          transform: translateY(-50%) rotateY(0deg);
+  right: 0;
+}
+
+.model .model_box .close {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.model .model_box .close span {
+  cursor: pointer;
+  background-color: #000;
+  padding: 5px 12px;
+  border-radius: 50%;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */

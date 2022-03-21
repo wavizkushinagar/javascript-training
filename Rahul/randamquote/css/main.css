@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #6e5151;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.quotes_div {
+  width: 75vw;
+  height: auto;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.quotes_div button {
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.quotes_div p {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  padding: 20px;
+  color: #fff;
+}
+
+.quotes_div p::before {
+  content: '"';
+  font-size: 40px;
+}
+
+.quotes_div h6 {
+  text-align: right;
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px 30px;
+}
+
+.quotes_div h6::before {
+  content: ":-";
+  margin-right: 20px;
+}
+/*# sourceMappingURL=main.css.map */
