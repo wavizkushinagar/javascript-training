@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <title>calculator</title>
+    <style>
+        .formStyle{
+            margin-top: 50px;
+            margin:20px auto;
+            background-color: blue;
+            width:198px;
+        }
+        #clear{
+            width:200px;
+        }
+    </style>
+  </head>
+ <body>
+    <h2 class="text-center"> simple Calculator</h2>
+<div class="formStyle">
+   <form name="forms">
+    <input type="text" name="answer" class="form-control" > <br><br>
+    <input type="button"  value=" 1 " onclick="forms.answer.value += '1'"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button"  value=" 2 " onclick="forms.answer.value += '2'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button"  value=" 3 " onclick="forms.answer.value += '3'">
+    <br><br>
+    <input type="button"  value=" 4 " onclick="forms.answer.value += '4'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button"  value=" 5 " onclick="forms.answer.value += '5'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button"  value=" 6 " onclick="forms.answer.value += '6'">
+    <br><br>
+    <input type="button"  value=" 7 " onclick="forms.answer.value += '7'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button"  value=" 8 " onclick="forms.answer.value += '8'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+    <input type="button"  value=" 9 " onclick="forms.answer.value += '9'">
+    <br><br>
+    <input type="button"  value=" * " onclick="forms.answer.value += '*'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    <input type="button"  value=" + " onclick="forms.answer.value += '+'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    <input type="button"  value=" - " onclick="forms.answer.value += '-'">
+    <br><br>
+    <input type="button"  value=" / " onclick="forms.answer.value += '/'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button"  value=" 0 " onclick="forms.answer.value += '0'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button"  value=" = " onclick="forms.answer.value = eval(forms.answer.value )"><br><BR>
+    <input type="button"  value=" Clear All " onclick="forms.answer.value =''" id="clear">
+
+
+</form>
+</div>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+  </body>
+</html>

@@ -1,0 +1,13 @@
+#box{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(42, 165, 155);
+    margin-top: 50px;
+    
+}
+.button{
+    margin-left: 500px;
+}
+#text{
+    font-size: 20px;
+}
