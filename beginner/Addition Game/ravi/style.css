@@ -1,0 +1,35 @@
+body{
+    background-color: #bec2ca;
+}
+
+.Weight_Converter{
+    width:700px;
+    height: 250px;
+    margin: 10px auto;
+    margin-top: 200px;
+    box-shadow: 1px 2px 5px 10px rgb(236, 243, 233);
+}
+.winner{
+    width:400px;
+    height: 400px;
+    margin: 10px auto;
+    margin-top: 100px;
+    box-shadow: 1px 2px 5px 10px rgb(236, 243, 233);
+    display: none;
+}
+.winner img{
+    width:400px;
+    height: 400px;
+}
+.lose{
+    width:400px;
+    height: 400px;
+    margin: 10px auto;
+    margin-top: 100px;
+    box-shadow: 1px 2px 5px 10px rgb(236, 243, 233);
+    display: none;
+}
+.lose img {
+    width:400px;
+    height: 400px;
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: #bec2ca;
+}
+
+.Weight_Converter{
+    width:400px;
+    height: 300px;
+    margin: 10px auto;
+    box-shadow: 1px 2px 5px 10px rgb(236, 243, 233);
+}
