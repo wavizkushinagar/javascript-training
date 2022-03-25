@@ -26,8 +26,8 @@ function add(){
         var winner = document.getElementById('winner');
         winner.style.display='none';
         var image =document.querySelector('.winner');
-    image.style.display='block';
-    document.querySelector('body').style.backgroundColor='green';
+        image.style.display='block';
+       document.querySelector('body').style.backgroundColor='green';
 
     }
     else{

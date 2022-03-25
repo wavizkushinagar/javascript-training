@@ -4,6 +4,7 @@
 }
 
 .clock_dial {
+  margin-top: 50px;
   width: 500px;
   height: 500px;
   border: 20px solid #dd9015;
