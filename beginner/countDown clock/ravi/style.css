@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    background-color: rgb(116, 145, 146);
+    align-items: center;
+    color:white;
+    margin-top:50px;
+    text-align: center;
+}
+h3{
+    background-color:black;
+    width:100px;
+    height:80px;
+}
+body{
+    background-color:rgb(178, 178, 214);
+}
+p{
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.main{
+    
+    justify-content: space-between;
+    height: 300px;
+    background-color: rgb(116, 145, 146);
+    color:white;
+    margin-top:50px;
+    
+}
+.main_1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top:40px;
+}
+h3{
+    background-color:black;
+    width:80px;
+    height:50px;
+}
+body{
+    background-color:rgb(178, 178, 214);
+}
+.greeting{
+    box-shadow: 1px 2px 5px 10px rgb(155, 202, 135);
+    width: 300px;
+    height: 100px;
+    font-family: bold;
+    letter-spacing: 1px;
+    font-size: 50px;
+    
+}
