@@ -17,9 +17,11 @@ function clock (){
      }
      if(hours >= 12 && hours <= 18){
         document.getElementById('greeting').innerText="Good Afternoon";
+        document.getElementById('greeting').style.backgroundColor="black";
+       
       }
       if(hours >= 18 && hours <= 24){
-        document.getElementById('greeting').innerText="Good Afternoon";
+        document.getElementById('greeting').innerText="Good Evening";
       }
 
 }
