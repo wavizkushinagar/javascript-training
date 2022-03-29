@@ -14,6 +14,7 @@ function clock (){
     //console.log(mid_day);
     if(hours < 12){
     document.getElementById('greeting').innerText="Good Morning";
+    document.getElementById('greeting').style.backgroundColor="green";
      }
      if(hours >= 12 && hours <= 18){
         document.getElementById('greeting').innerText="Good Afternoon";
@@ -22,6 +23,7 @@ function clock (){
       }
       if(hours >= 18 && hours <= 24){
         document.getElementById('greeting').innerText="Good Evening";
+        document.getElementById('greeting').style.backgroundColor="yellow";
       }
 
 }
