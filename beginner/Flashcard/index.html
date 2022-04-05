@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <div class="main">
+                <div class="add_section  mx-auto">
+                    <h3 class="text-center">Flashcard</h3>
+                    <button type="button" class="btn btn-outline-warning" onclick=" add();">Add Question</button>
+                    <div class="add_section_2  p-3 m-2" id="add_section_2">
+                        <div class="form-group green-border-focus">
+                            <h5 class="back"><i class="bi bi-x-square" onclick="back();" ></i></h5>
+                            <label for="exampleFormControlTextarea5">Question</label>
+                            <textarea class="form-control" id="question" id="exampleFormControlTextarea5" rows="3"></textarea>
+                          </div>
+                          <div class="form-group green-border-focus">
+                            <label for="exampleFormControlTextarea5">Answer</label>
+                            <textarea class="form-control" id="answer"  id="exampleFormControlTextarea5" rows="3"></textarea>
+                          </div>
+                          <div class="m-2">
+                              <button type="button" class="btn btn-outline-success px-5" onclick="addItem();">Save</button>
+                          </div>
+                    </div>
+                </div>
+                <div class="add_section_3  mx-auto m-3 " id="add_section_3">
+                    <div class="">
+                        <h5 id="question_1"> </h5>
+                        
+                        <div class="">
+                            <button type="button" onclick="show();" class=" p-0 m-0 show">Show /</button>
+                            <button type="button" onclick="hide();" class=" p-0 m-0 hide">answer hide</button>
+                        </div>
+                        <h5 id="answer_1"></h5>
+                    </div>
+                    <div class="" id="edit1">
+                        <input type="" value="" placeholder="enter new answer" id="edit" >
+                        <button type="button" id="new">update</button>
+                    </div>
+
+
+                    <div class="mt-2">
+                        <button type="button" onclick="Edit();" class="btn btn-outline-success">Edit</button>
+                        <button type="button" onclick="Delete()" class="btn btn-outline-danger">Delete</button>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
